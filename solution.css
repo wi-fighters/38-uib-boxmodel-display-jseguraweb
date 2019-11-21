@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.fixme1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.fixme2,
+.fixme3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.fixme2 .one,
+.fixme2 .two {
+    margin-right: 1rem;
+}
